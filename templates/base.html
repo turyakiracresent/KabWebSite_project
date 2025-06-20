@@ -1,14 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
+<!-- Type ! and hit enter to have the default html page set up-->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kabale University | Uganda</title>
-    
-</head>
-<body>
-    <header>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        header{
+            background-color: lime;
+        }
+    </style>
+ </head>
+ <body>
+  <header>
         <a href="{% url 'home'%}">Home</a> |
         <a href="{% url 'services'%}">Services</a> |
         <a href="{% url 'news'%}">News</a> |
@@ -18,5 +25,5 @@
 
     {% endblock content %}
  <h4><a href="https://turyakiracresentportfolio.onrender.com/">Back To TuryakiraCresent Portfolio Website</a></h4>
-</body>   
-</html>
+ </body>
+ </html>
